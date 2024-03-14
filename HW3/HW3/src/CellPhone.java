@@ -1,9 +1,8 @@
 public class CellPhone extends Device {
-    private int tasksCompleted;
+    private int tasksCompleted = 0;
 
     public CellPhone(int serialNumber, int cpuCpacity, int len) {
         super(serialNumber, cpuCpacity, len);
-        this.tasksCompleted = 0;
     }
 
     public CellPhone(int serialNumber, int cpuCpacity) {
